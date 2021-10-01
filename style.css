@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background: radial-gradient( circle farthest-corner at 10% 20%, rgba(221,6,24,1) 0.3%, rgba(254,164,201,1) 90% );
+
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+#picture{
+    background-image:url("https://www.teahub.io/photos/full/43-434733_1082x1920-plain-white-background-wallpaper-vertical-blue-and.jpg");
+    background-position:center ;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(255, 0, 43);}
+    to{box-shadow: 1px 1px 38px rgb(5, 238, 44);}
+
+}
